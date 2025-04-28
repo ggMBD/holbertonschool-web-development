@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+}
+
+body {
+    width: 1440px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* Header */
+
+header {
+    background: transparent;
+    width: 100%;
+    height: 29.46px;
+    margin-top: 35.02px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+header .logo {
+    width: 167.02px;
+    margin-left: 171.59px;
+}
+
+header .nav {
+    margin-right: 171.59px;
+}
+header .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+/* Banner section  */
+
+.banner {
+    background-image: url(img/header-bg.png);
+    width: 1440px;
+    height: 1093px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .banner_content {
+    padding-top: 220px;
+    text-align: center;
+  }
+  
+  .banner_content h1 {
+    color: #ffffff;
+    font-size: 120px;
+    text-align: center;
+  }
+  
+  .banner_content span {
+    margin: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .banner_content button {
+    height: 44px;
+    width: 180px;
+    font-weight: 600;
+    background-color: #c271ff;
+    color: #ffffff;
+    border: none;
+    margin-top: 40px;
+    border-radius: 22px;
+    padding: 13px 20px;
+    box-shadow: 0px 0px 20px 3px #494949;
+  }
+  
+  .learn_pros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .learn_pros h2 {
+    padding-top: 140px;
+    font-size: 32px;
+    font-weight: 300;
+  }
+  
+  .learn_pros h2 span {
+    color: #c271ff;
+  }
+  
+  .card_pros {
+    margin-top: 90px;
+    width: 1009px;
+    height: 237px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item_card {
+    width: 150px;
+    height: 237px;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .item_card img {
+    margin-bottom: 10px;
+  }
+  
+  .item_card h3 {
+    font-size: 18px;
+    height: 27px;
+  }
+  
+  .item_card p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
